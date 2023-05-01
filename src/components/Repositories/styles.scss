@@ -1,0 +1,82 @@
+.repos {
+    margin-bottom: 2rem;
+    max-height: 15rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 6fr 1fr;
+    grid-template-rows: 3.5rem 5rem 2rem;
+    grid-template-areas:
+        "name name name name hmpg"
+        "desc desc desc desc desc"
+        "star fork watc . lang"
+    ;
+    gap: 1rem;
+
+    #name {
+        grid-area: name;
+
+        a {
+            h2 {
+                cursor: pointer;
+            }
+        }
+    }
+
+
+    #desc {
+        grid-area: desc;
+        font-size: 20px;
+    }
+
+    #hmpg {
+        grid-area: hmpg;
+        cursor: pointer;
+    }
+
+    #star {
+        grid-area: star;
+    }
+
+    #fork {
+        grid-area: fork;
+    }
+
+    #watc {
+        grid-area: watc;
+    }
+
+    #lang {
+        grid-area: lang;
+        cursor: default;
+
+        .html-icon,
+        .html-value {
+            color: var(--color-html);
+        }
+
+        .css-icon,
+        .css-value {
+            color: var(--color-css);
+        }
+
+        .js-icon,
+        .js-value {
+            color: var(--color-js);
+        }
+
+    }
+
+    #hmpg,
+    #lang {
+        justify-content: flex-end;
+    }
+
+    small {
+        font-size: 14px;
+    }
+
+    div {
+        display: flex;
+        gap: .4rem;
+    }
+}

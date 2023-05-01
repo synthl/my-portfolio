@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Open+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --body-bg-color: #07090F;
+    // --body-bg-color: #22212C;
+    --text-color: #30BCED;
+    // --text-color: #837E9F;
+    --bg-cards: #0E1C36;
+    // --bg-cards: #302F3D;
+    --bg-techs: #FFD400;
+    // --bg-techs: #CB92B1;
+    --font-family: Merriweather Sans;
+    --font-light: 400;
+    --font-normal: 500;
+    --font-bold: 700;
+    --color-html: #e44d26;
+    --color-css: #42a5f5;
+    --color-js: #ffca28;
+    --green: #71F79F;
+    --black: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, strong, small {
+    cursor: default;
+}
+
+li {
+    list-style-type: none;
+}
+

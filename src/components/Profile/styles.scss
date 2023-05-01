@@ -1,0 +1,16 @@
+.Profile {
+    text-align: center;
+    
+    img {
+        margin-bottom: 10px;
+        height: 128px;
+
+        border: var(--green) 1px solid;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    h2 {
+        margin: 0;
+    }
+}
